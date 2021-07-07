@@ -66,8 +66,7 @@ or
 
 ## Demo
 
-TODO
-https://erovas.github.io/Device.js/
+https://erovas.github.io/viewportchange.js/
 
 ## Authors
 
@@ -148,8 +147,7 @@ o
 
 ## Demo
 
-TODO
-https://erovas.github.io/Device.js/
+https://erovas.github.io/viewportchange.js/
 
 ## Autores
 
