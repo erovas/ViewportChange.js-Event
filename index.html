@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <!--  NO permitir Zoom en movil-->
+    <!--<meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0, maximum-scale=1, minimum-scale=1">-->
+    <!-- SI permitir Zoom en movil-->
+    <meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0, minimum-scale=1">
+
+    <meta name="keywords" content="JavaScript, library, internet explorer, tool, device, detect, edge legacy">
+    <meta name="description" content="viewportchange.js is a small script that adds the 'viewportchange' event, which is fire it when the size screen change (fullscreen <-> normal screen, portrait <-> landscape (mobile), hidding buttons bar (android phones), also this script adds to window the getRVP() method.">
+    <meta name="author" content="Emanuel Rojas Vasquez">
+
+    <title>viewportchange.js</title>
+
+    <link rel="icon" href="viewportchange-favicon.png" type="image/png" sizes="16x16">
+    <link href="normalize.min.css" rel="stylesheet">
+    <link href="index.css" rel="stylesheet">
+
+    <script src="Device.min.js"></script>
+    <script src="viewportchange.min.js"></script>
+
+
+</head>
+<body>
+
+    <a href="https://github.com/erovas/viewportchange.js">
+        <h1>viewportchange.js</h1>
+    </a>
+
+    <table>
+        <tr>
+            <th colspan="4">event.data || window.getRVP()</th>
+        </tr>
+        <tr>
+            <td>pvh</td>
+            <td>pvw</td>
+            <td>lvh</td>
+            <td>lvw</td>
+        </tr>
+        <tr>
+            <td id="pvh">123px</td>
+            <td id="pvw">123px</td>
+            <td id="lvh">123px</td>
+            <td id="lvw">123px</td>
+        </tr>
+    </table>
+
+    <br>
+
+    <h2>
+        Try to resize (maximize, minimize, tab, go fullscreen) browser
+    </h2>
+
+    <br>
+    
+    <button id="button">
+        in/out fullscreen
+    </button>
+
+    <div style="height:50px;"></div>
+
+    <a class="anchor-repository" href="https://github.com/erovas/viewportchange.js">
+        Github repository
+    </a>
+
+    <script src="index.js"></script>
+    
+</body>
+</html>
