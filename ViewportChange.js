@@ -13,7 +13,7 @@
  */
 (function(window){
 
-    let VIEWPORTCHANGE = 'viewportchange';
+    let VIEWPORTCHANGE = 'ViewportChange';
     let CUSTOM_EVENT = 'CustomEvent';
     let FUNCTION = 'function';
     let Device = window.Device;
