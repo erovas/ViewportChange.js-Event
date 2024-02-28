@@ -1,4 +1,4 @@
-# viewportchange.js
+# ViewportChange.js Event
 Small script that adds the "viewportchange" event, which is fire it when the size screen change (fullscreen <-> normal screen, portrait <-> landscape (mobile), hidding buttons bar (android phones), also this script adds to window the getRVP() method, this method will get you a plain object with following format:
 
 ``` javascript
@@ -19,13 +19,13 @@ This script require [Device.js](https://github.com/erovas/Device.js) preloaded, 
 
 ``` html
 <script src="Device.min.js"></script>
-<script src="viewportchange.min.js"></script>
+<script src="ViewportChange.min.js"></script>
 <script>
-    window.onviewportchange = function(e){
+    window.onViewportChange = function(e){
       console.log(e.data || window.getRVP());
     }
   
-    window.addEventListener("viewportchange", function(e){
+    window.addEventListener("ViewportChange", function(e){
       console.log(e.data || window.getRVP());
     }, false)
 </script>
@@ -35,7 +35,7 @@ or
 
 ``` html
 <script defer src="Device.min.js"></script>
-<script defer src="viewportchange.min.js"></script>
+<script defer src="ViewportChange.min.js"></script>
 <script defer src="otherScript.js"></script>
 ```
 
@@ -43,7 +43,7 @@ or
 
 ``` html
 <script type="module" src="Device.min.js"></script>
-<script type="module" src="viewportchange.min.js"></script>
+<script type="module" src="ViewportChange.min.js"></script>
 <script type="module" src="otherScript.js"></script>
 ```
 
@@ -52,13 +52,13 @@ or
 ``` html
 <script type="module">
     import "Device.min.js";
-    import "viewportchange.min.js";
+    import "ViewportChange.min.js";
     
-    window.onviewportchange = function(e){
+    window.onViewportChange = function(e){
       console.log(e.data || window.getRVP());
     }
   
-    window.addEventListener("viewportchange", function(e){
+    window.addEventListener("ViewportChange", function(e){
       console.log(e.data || window.getRVP());
     }, false)
 </script>
@@ -100,13 +100,13 @@ Este script requiere [Device.js](https://github.com/erovas/Device.js) precargado
 
 ``` html
 <script src="Device.min.js"></script>
-<script src="viewportchange.min.js"></script>
+<script src="ViewportChange.min.js"></script>
 <script>
-    window.onviewportchange = function(e){
+    window.onViewportChange = function(e){
       console.log(e.data || window.getRVP());
     }
   
-    window.addEventListener("viewportchange", function(e){
+    window.addEventListener("ViewportChange", function(e){
       console.log(e.data || window.getRVP());
     }, false)
 </script>
@@ -116,7 +116,7 @@ o
 
 ``` html
 <script defer src="Device.min.js"></script>
-<script defer src="viewportchange.min.js"></script>
+<script defer src="ViewportChange.min.js"></script>
 <script defer src="otherScript.js"></script>
 ```
 
@@ -124,7 +124,7 @@ o
 
 ``` html
 <script type="module" src="Device.min.js"></script>
-<script type="module" src="viewportchange.min.js"></script>
+<script type="module" src="ViewportChange.min.js"></script>
 <script type="module" src="otherScript.js"></script>
 ```
 
@@ -133,13 +133,13 @@ o
 ``` html
 <script type="module">
     import "Device.min.js";
-    import "viewportchange.min.js";
+    import "ViewportChange.min.js";
     
-    window.onviewportchange = function(e){
+    window.onViewportChange = function(e){
       console.log(e.data || window.getRVP());
     }
   
-    window.addEventListener("viewportchange", function(e){
+    window.addEventListener("ViewportChange", function(e){
       console.log(e.data || window.getRVP());
     }, false)
 </script>
